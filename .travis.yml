@@ -20,10 +20,10 @@ before_install:
   #   skipping pydot (for all) since it is not 3.x compatible.
   #   skipping gdal (for all) since it has errors while installing from pip.
 
-#  - pip install pyyaml --use-mirrors
-#  - pip install pyparsing --use-mirrors
-#  - pip install coveralls --use-mirrors
+  #  - pip install pyyaml --use-mirrors
+  #  - pip install pyparsing --use-mirrors
+  #  - pip install coveralls --use-mirrors
 
-script: nosetests
+script: make test
   
 #git://github.com/networkx/networkxmaster
